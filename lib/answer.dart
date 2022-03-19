@@ -18,7 +18,7 @@ class Answer extends StatelessWidget {
       width: double.infinity,
       child: ElevatedButton(
           style: ButtonStyle(
-            /** Colors class has static parameters so you can use it with "." without instationating it using () */
+            /** Colors class has static parameters so you can use it with "." without instantiating it using () */
             backgroundColor: MaterialStateProperty.all(Colors.blue),
           ),
           onPressed: selectHandler,
